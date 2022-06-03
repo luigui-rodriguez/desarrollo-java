@@ -85,6 +85,14 @@ public class Departamento {
 
 	public static void setId(long long1) {
 		// TODO Auto-generated method stub
+	}
+	public void setFecha_hora_modifica(java.util.Date date) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void setFecha_hora_crea(java.util.Date convertiFecha) {
+		// TODO Auto-generated method stub
 		
 	}
 	

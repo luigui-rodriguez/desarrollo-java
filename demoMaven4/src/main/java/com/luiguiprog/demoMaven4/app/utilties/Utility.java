@@ -8,7 +8,7 @@ import java.util.Date;
 
 public class Utility {
 	
-	public static Date convertirFicha(String fch) {
+	public static Date convertirFecha(String fch) {
 		SimpleDateFormat formato=new SimpleDateFormat("dd/MM/yyyy");
 		Date date=null;
 		

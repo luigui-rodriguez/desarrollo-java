@@ -8,9 +8,9 @@ public class Conexion {
     //Atributos que establecen la conexion
     private String db="AdminEmple";
     private Connection conex= null;
-    private String usuario="root";
-    private String password="FA-200306";
-    private String url="jdbc:mysql://localhost:3306/"+db;
+    private String usuario="admin11@base11";
+    private String password="M5656185*";
+    private String url="jdbc:mysql://base11.mysql.database.azure.com:3306/"+db;
 
     public Conexion() {
     }
@@ -28,14 +28,14 @@ public class Conexion {
     
     
     
-public Connection getConnection() throws SQLException, ClassNotFoundException{
-Class.forName("com.mysql.cj.jdbc.Driver");
-conex=DriverManager.getConnection(url,usuario,password);
-return conex;
-}    
+    	public Connection getConnection() throws SQLException, ClassNotFoundException{
+    	Class.forName("com.mysql.cj.jdbc.Driver");
+    	conex=DriverManager.getConnection(url,usuario,password);
+    	return conex;
+    	}    
     
     
-}
+	}
 
 /*public class Conexion {
 	
