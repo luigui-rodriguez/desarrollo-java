@@ -10,8 +10,28 @@
   	<description></description>
   	<servlet-class>com.luiguiprog.demoMaven4.app.controller.DepartamentoServletController</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>CuidadServletController</servlet-name>
+  	<display-name>CuidadServletController</display-name>
+  	<description></description>
+  	<servlet-class>com.luiguiprog.demoMaven4.app.controller.CuidadServletController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>EmpleadosServletController</servlet-name>
+  	<display-name>EmpleadosServletController</display-name>
+  	<description></description>
+  	<servlet-class>com.luiguiprog.demoMaven4.app.controller.EmpleadosServletController</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>DepartamentoServletController</servlet-name>
   	<url-pattern>/DepartamentoServletController</url-pattern>
   </servlet-mapping>
-</web-app>
+  <servlet-mapping>
+  	<servlet-name>CuidadServletController</servlet-name>
+  	<url-pattern>/CuidadServletController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>EmpleadosServletController</servlet-name>
+  	<url-pattern>/EmpleadosServletController</url-pattern>
+  </servlet-mapping>
+ </web-app>	
